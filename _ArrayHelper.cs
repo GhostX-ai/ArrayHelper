@@ -132,6 +132,45 @@ namespace ArrayHelper
             ar = nar;
             return fs;
         }
-        
+        public static void UnShift(ref string[] ar, string ne)
+        {
+            string[] nar = new string[ar.Length + 1];
+            nar[0] = ne;
+            for (int x = 0; x < nar.Length-1; x++)
+            {
+                nar[x+1] = ar[x];
+            }
+            ar = nar;
+        }
+        public static void UnShift(ref double[] ar, double ne)
+        {
+            double[] nar = new double[ar.Length + 1];
+            nar[0] = ne;
+            for (int x = 0; x < nar.Length-1; x++)
+            {
+                nar[x+1] = ar[x];
+            }
+            ar = nar;
+        }
+        public static void UnShift(ref int[] ar, int ne)
+        {
+            int[] nar = new int[ar.Length + 1];
+            nar[0] = ne;
+            for (int x = 0; x < nar.Length-1; x++)
+            {
+                nar[x+1] = ar[x];
+            }
+            ar = nar;
+        }
+        public static void UnShift(ref decimal[] ar, decimal ne)
+        {
+            decimal[] nar = new decimal[ar.Length + 1];
+            nar[0] = ne;
+            for (int x = 0; x < nar.Length-1; x++)
+            {
+                nar[x+1] = ar[x];
+            }
+            ar = nar;
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace ArrayHelper
             string end = _ArrayHelper_.Pop(ref x);
             _ArrayHelper_.Push(ref x,"NE");
             string fs = _ArrayHelper_.Shift(ref x);
+            _ArrayHelper_.UnShift(ref x,"ne");
             Console.ReadKey();
         }
     }
