@@ -1,0 +1,13 @@
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\bin\Debug\netcoreapp3.1\ArrayHelper.exe
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\bin\Debug\netcoreapp3.1\ArrayHelper.deps.json
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\bin\Debug\netcoreapp3.1\ArrayHelper.runtimeconfig.json
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\bin\Debug\netcoreapp3.1\ArrayHelper.runtimeconfig.dev.json
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\bin\Debug\netcoreapp3.1\ArrayHelper.dll
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\bin\Debug\netcoreapp3.1\ArrayHelper.pdb
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\obj\Debug\netcoreapp3.1\ArrayHelper.csprojAssemblyReference.cache
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\obj\Debug\netcoreapp3.1\ArrayHelper.csproj.CoreCompileInputs.cache
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\obj\Debug\netcoreapp3.1\ArrayHelper.AssemblyInfoInputs.cache
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\obj\Debug\netcoreapp3.1\ArrayHelper.AssemblyInfo.cs
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\obj\Debug\netcoreapp3.1\ArrayHelper.dll
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\obj\Debug\netcoreapp3.1\ArrayHelper.pdb
+C:\Users\GhostX\Desktop\c#Projects\ArrayHelper\obj\Debug\netcoreapp3.1\ArrayHelper.genruntimeconfig.cache
