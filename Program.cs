@@ -8,6 +8,8 @@ namespace ArrayHelper
         {
             string[] x = { "Asd", "Sds" };
             string end = _ArrayHelper_.Pop(ref x);
+            _ArrayHelper_.Push(ref x,"NE");
+            string fs = _ArrayHelper_.Shift(ref x);
             Console.ReadKey();
         }
     }

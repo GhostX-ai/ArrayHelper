@@ -55,7 +55,7 @@ namespace ArrayHelper
             {
                 nar[x] = ar[x];
             }
-            nar[nar.Length-1] = ne;
+            nar[nar.Length - 1] = ne;
             ar = nar;
         }
         public static void Push(ref double[] ar, double ne)
@@ -65,7 +65,7 @@ namespace ArrayHelper
             {
                 nar[x] = ar[x];
             }
-            nar[nar.Length-1] = ne;
+            nar[nar.Length - 1] = ne;
             ar = nar;
         }
         public static void Push(ref int[] ar, int ne)
@@ -75,7 +75,7 @@ namespace ArrayHelper
             {
                 nar[x] = ar[x];
             }
-            nar[nar.Length-1] = ne;
+            nar[nar.Length - 1] = ne;
             ar = nar;
         }
         public static void Push(ref decimal[] ar, decimal ne)
@@ -85,8 +85,52 @@ namespace ArrayHelper
             {
                 nar[x] = ar[x];
             }
-            nar[nar.Length-1] = ne;
+            nar[nar.Length - 1] = ne;
             ar = nar;
+        }
+        public static string Shift(ref string[] ar)
+        {
+            string[] nar = new string[ar.Length - 1];
+            for (int x = 0; x < nar.Length; x++)
+            {
+                nar[x] = ar[x + 1];
+            }
+            string fs = ar[0];
+            ar = nar;
+            return fs;
+        }
+        public static double Shift(ref double[] ar)
+        {
+            double[] nar = new double[ar.Length - 1];
+            for (int x = 0; x < nar.Length; x++)
+            {
+                nar[x] = ar[x + 1];
+            }
+            double fs = ar[0];
+            ar = nar;
+            return fs;
+        }
+        public static int Shift(ref int[] ar)
+        {
+            int[] nar = new int[ar.Length - 1];
+            for (int x = 0; x < nar.Length; x++)
+            {
+                nar[x] = ar[x + 1];
+            }
+            int fs = ar[0];
+            ar = nar;
+            return fs;
+        }
+        public static decimal Shift(ref decimal[] ar)
+        {
+            decimal[] nar = new decimal[ar.Length - 1];
+            for (int x = 0; x < nar.Length; x++)
+            {
+                nar[x] = ar[x + 1];
+            }
+            decimal fs = ar[0];
+            ar = nar;
+            return fs;
         }
         
     }
